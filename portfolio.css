@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p{
+    margin:0;
+    padding: 0; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(29, 29, 31, 0.6), rgba(255, 255, 255, 0.1)),
+                    url(img/background.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    height:  600px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header h1{
+    font-size: 2.7em;
+    margin-bottom: 20px;
+}
+
+header h2{
+    color: rgb(89, 184, 207);
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+header p{
+    color: rgb(89, 184, 207);
+}
+
+header p a{
+    color: white;
+}
+
+.toolbar{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+.logo{
+    margin-left: -15%;
+    font-size: 1.2em; 
+    vertical-align: super;
+}
+
+.logo img{
+    width: 40px;
+    vertical-align: middle; 
+}
+
+.logo a{
+    padding: 15px;
+    color: rgb(89, 184, 207);
+}
+
+.logo :hover{
+    color: grey;
+}
+
+.navbar{
+    margin-right: -15%;
+    font-size: 1.2em;   
+}
+
+.navbar a{
+    padding: 15px;
+    color: grey;
+}
+
+.navbar :hover{
+    color: rgb(89, 184, 207);
+}
+.navbar span a{
+    color: rgb(89, 184, 207);
+}
+
+main{
+    background-color:  rgb(89, 184, 207);
+}
+
+main h1{
+    text-align: center;
+    color: white;
+    padding: 30px 0 20px 0;
+}
+
+main h2{
+    color: rgb(51, 50, 50);
+}
+
+.projets{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;   
+}
+
+.projet{
+    width: 460px;
+    height: 360px;
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    box-shadow: 0 0 10px rgb(94, 92, 92);
+}
+
+.projet img{
+    width: 430px;
+    height:240px ;
+    text-align: center;
+    box-shadow: 0 0 5px grey;
+    margin: 15px 10px 10px 10px;
+}
+
+.text{
+    width: 430px;
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+}
+
+footer{  
+    height: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    margin-left: 8%;
+}
+
+.footer-logo img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+.social{
+    margin-right: 8%;
+}
+.social img{
+    height: 30px;
+    opacity: 0.8;
+}
+
+.social :hover img{
+    opacity: 1;
+}
+
